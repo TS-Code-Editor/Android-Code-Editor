@@ -116,7 +116,7 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.9.1'
     implementation 'com.termux.termux-app:terminal-view:0.117'
     implementation 'com.termux.termux-app:terminal-emulator:0.117'
-    implementation 'org.nanohttpd:nanohttpd:2.3.0'
+    implementation 'org.nanohttpd:nanohttpd:2.3.1'
     def editorGroupId = "io.github.Rosemoe.sora-editor"
     implementation platform("$editorGroupId:bom:0.22.0")
     implementation "$editorGroupId:editor"
