@@ -118,7 +118,7 @@ dependencies {
     implementation 'com.termux.termux-app:terminal-emulator:0.117'
     implementation 'org.nanohttpd:nanohttpd:2.3.0'
     def editorGroupId = "io.github.Rosemoe.sora-editor"
-    implementation platform("$editorGroupId:bom:0.22.0")
+    implementation platform("$editorGroupId:bom:0.23.4")
     implementation "$editorGroupId:editor"
     implementation "$editorGroupId:language-textmate"
     implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
