@@ -127,7 +127,7 @@ dependencies {
             new File("$projectDir/google-services.json").text = secrets;
         }
     }
-    implementation platform('com.google.firebase:firebase-bom:32.2.3')
+    implementation platform('com.google.firebase:firebase-bom:32.8.0')
     implementation("com.google.firebase:firebase-analytics")
 
     implementation project(path:':markdown-viewer')
